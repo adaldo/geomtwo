@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="point_simulator" pkg="geomtwo" type="point_simulator.py"/>
+  <node name="velocity_publisher" pkg="geomtwo" type="velocity_publisher.py"/>
+  <node name="point_plotter" pkg="geomtwo" type="point_plotter.py"/>
+
+</launch>

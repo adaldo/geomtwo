@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="pose_simulator" pkg="geomtwo" type="pose_simulator.py"/>
+  <node name="twist_publisher" pkg="geomtwo" type="twist_publisher.py"/>
+  <node name="pose_plotter" pkg="geomtwo" type="pose_plotter.py"/>
+
+</launch>
